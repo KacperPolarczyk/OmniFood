@@ -29,7 +29,10 @@ Medium - 1.2
 - Tints: #fdf2e9 #fae5d3 #eb984e
 - Shades: #cf711f #45260a
 - Accents: 
-- Greys: #555 #333 #6f6f6f
+- Greys: #888 #555 #333
+#767676 (lightest grey allowed on #fff)
+#6f6f6f (lightest grey allowed on #fdf2e9)
+
 
 --- 05 SHADOWS ---
 
@@ -102,6 +105,9 @@ body {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
